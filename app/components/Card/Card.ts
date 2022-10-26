@@ -53,6 +53,7 @@ export class Card extends HTMLElement {
         render(){
             if(this.shadowRoot){
                 this.shadowRoot.innerHTML = `
+                <link rel="stylesheet" href="components/card.css">
                 <section>
                 <h1>${this.name}:</h1>
                 <p>${this.level}</p>
